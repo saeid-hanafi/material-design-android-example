@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="16dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp"
+    android:clickable="true"
+    app:checkedIconTint="@color/white"
+    app:rippleColor="@color/red_200"
+    app:cardBackgroundColor="@color/red_700"
+    app:strokeWidth="2dp"
+    app:strokeColor="@color/white"
+    android:checkable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aenean sollicitudin in arcu vitae molestie"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aenean sollicitudin in arcu vitae molestie. Mauris dictum interdum sapien nec semper. Suspendisse laoreet fringilla condimentum. Nullam non luctus dolor, vel pellentesque dolor. Morbi vulputate nisi nec ullamcorper cursus. Ut blandit condimentum diam, ac viverra elit fringilla nec. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Suspendisse ac blandit enim. Nam suscipit diam eget justo laoreet placerat. Maecenas feugiat erat ac nisi feugiat porta. Sed fringilla sit amet velit vitae iaculis. Aenean semper nisl mollis purus faucibus tempor vitae nec erat. Pellentesque id vulputate leo. Nam faucibus sit amet urna a tincidunt. Sed feugiat lacinia lacus sit amet feugiat. Nunc posuere tempor lectus, a venenatis dolor lacinia quis."
+            android:textColor="@color/white"
+            android:textSize="14dp"/>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
